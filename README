@@ -23,11 +23,17 @@ DESCRIPTION
     XML namespace. Not so. It will really be parsed as having the attribute
     "xml:lang" in the null namespace.
 
-    "fix_document"
+    "fix_document($document)"
           $sane_dom = fix_document($html5_dom);
 
         Returns a modified copy of the DOM and leaving the original DOM
         unmodified.
+
+    "fix_element($element_node, $new_document_node, \%namespaces)"
+        Don't use this. Not exported.
+
+    "fix_attribute($attribute_node, $new_element_node, \%namespaces)"
+        Don't use this. Not exported.
 
     $HTML::HTML5::Sanity::FIX_LANG_ATTRIBUTES
           $HTML::HTML5::Sanity::FIX_LANG_ATTRIBUTES = 2;
@@ -43,7 +49,7 @@ BUGS
     Please report any bugs to <http://rt.cpan.org/>.
 
 SEE ALSO
-    HTML::HTML5::Parser, XML::LibXML, XML::LibXML::Debugging.
+    HTML::HTML5::Parser, XML::LibXML, Task::HTML5.
 
 AUTHOR
     Toby Inkster <tobyink@cpan.org>.
