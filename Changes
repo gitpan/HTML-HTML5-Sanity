@@ -6,16 +6,22 @@ Home page:    <https://metacpan.org/release/HTML-HTML5-Sanity>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=HTML-HTML5-Sanity>
 Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
+0.103  2011-12-08
+
+ - (Packaging) Update test cases to cope with changes to
+   XML::LibXML::Debugging.
+ - (Update) use Object::AUTHORITY
+
 0.102  2011-10-20
 
- - (Packaging) Module::Package::RDF.
  - (Update) use 5.010.
+ - (Packaging) Module::Package::RDF.
 
 0.101  2011-01-20
 
- - (Removal) No longer rely on HTML::Entities.
  - (Removal) No longer make fix_element and fix_attribute functions
    exportable. They're fairly obscure and pretty confusing to use.
+ - (Removal) No longer rely on HTML::Entities.
 
 0.100  2010-06-23
 
@@ -27,15 +33,15 @@ Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
 0.03  2010-01-08
 
- - (Update) Add 2010 copyright notice.
- - (Update) Use Turtle for Changes file.
  - (Bugfix) Mention HTML::Entities dependency in Makefile.PL.
+ - (Update) Use Turtle for Changes file.
+ - (Update) Add 2010 copyright notice.
 
 0.02  2009-12-23
 
  - Improve tests.
- - (Update) Update build system; sign distribution.
  - (Addition) Handling for invalid language attributes.
+ - (Update) Update build system; sign distribution.
 
 0.01  2009-12-03
 
