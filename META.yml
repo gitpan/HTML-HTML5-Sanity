@@ -3,13 +3,14 @@ abstract: 'make HTML5 DOM trees less insane'
 author:
   - 'Toby Inkster <tobyink@cpan.org>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.59
   Test::More: 0.61
   XML::LibXML::Debugging: 0
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.59
 distribution_type: module
-generated_by: 'Module::Install version 1.02'
+dynamic_config: 0
+generated_by: 'Module::Install version 1.06'
 keywords:
   - Attributes
   - DOM
@@ -44,5 +45,5 @@ resources:
   bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=HTML-HTML5-Sanity
   homepage: https://metacpan.org/release/HTML-HTML5-Sanity
   license: http://dev.perl.org/licenses/
-  repository: https://bitbucket.org/tobyink/p5-html-html5-sanity
-version: 0.103
+  repository: https://github.com/tobyink/p5-html-html5-sanity
+version: 0.104
